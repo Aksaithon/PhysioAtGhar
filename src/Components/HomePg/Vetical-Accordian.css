@@ -1,0 +1,53 @@
+.small {
+  width: 298px;
+  height: 107px;
+
+  background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -50px;
+
+  border-radius: 35.39px;
+}
+
+.big {
+  width: 298px;
+  height: 337px;
+
+  background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+  background-size: cover;
+  border-radius: 33.99999px;
+}
+
+.toBig {
+  animation: changeToBig 0.1s ease-out forwards;
+}
+
+.toSmall {
+  animation: changeToSmall 0.1s ease-out forwards;
+}
+
+@keyframes changeToBig {
+  to {
+    width: 298px;
+    height: 337px;
+
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+    background-size: cover;
+    border-radius: 33.99999px;
+  }
+}
+
+@keyframes changeToSmall {
+  to {
+    width: 298px;
+    height: 107px;
+
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -50px;
+
+    border-radius: 35.39px;
+  }
+}

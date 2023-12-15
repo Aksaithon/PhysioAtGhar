@@ -1,0 +1,68 @@
+.intro_part {
+  width: 360px;
+  height: 800px;
+  position: relative;
+
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.73) 0%,
+      rgba(0, 0, 0, 0.73) 100%
+    ),
+    url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\corrected-bg-image.png"),
+    lightgray 50% / cover no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main_headline {
+  width: 200px;
+  position: absolute;
+
+  top: 268px;
+  left: 80px;
+
+  /* typography */
+  color: rgba(255, 255, 255, 0.37);
+  font-family: sans-serif;
+  font-size: 36.13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 66px; /* 182.674% */
+  letter-spacing: 7.226px;
+}
+
+.contact_btn,
+.book_btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 723px;
+
+  border: none;
+  border-radius: 6.9994px;
+  background: #0075ff;
+
+  /* typography */
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14.66px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.932px;
+}
+
+.contact_btn {
+  padding: 14px 18.5px;
+  left: 20px;
+}
+
+.book_btn {
+  padding: 14px 9.5px;
+  right: 20px;
+}

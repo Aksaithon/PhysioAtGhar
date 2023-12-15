@@ -1,0 +1,43 @@
+.main_frame {
+  width: 332px;
+  height: 110px;
+  background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img1.png");
+  background-size: cover;
+
+  animation: autoSlider 20s ease-out infinite;
+}
+
+@keyframes autoSlider {
+  0% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img1.png");
+    background-size: cover;
+  }
+  14.28% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img2.png");
+    background-size: cover;
+  }
+  28.56% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img3.png");
+    background-size: cover;
+  }
+  42.84% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img4.png");
+    background-size: cover;
+  }
+  57.12% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img5.png");
+    background-size: cover;
+  }
+  71.4% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img6.png");
+    background-size: cover;
+  }
+  85.68% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img7.png");
+    background-size: cover;
+  }
+  100% {
+    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img1.png");
+    background-size: cover;
+  }
+}
