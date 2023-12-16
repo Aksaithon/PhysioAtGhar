@@ -1,5 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Work+Sans:wght@300;400;700;900&display=swap");
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  /* background-color: rgba(128, 128, 128, 0.234); */
+  flex-direction: column;
+
+  width: fit-content;
+  height: fit-content;
+  padding-top: 10px;
+
+  gap: 15.29px;
+
+}
+
+.item1_and_item2{
+  display: flex;
+  flex-direction: column;
+}
+
+.item1 {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+
+  flex-direction: row;
+  align-items: center;
+
+  /* padding-top: 10px;
+  padding-left: 25px; */
+  gap: 66.79px;
+}
+
+.accdHeadLine {
+  color: white;
+  margin: 0;
+
+  font-weight: bold;
+  font-size: 21.07px;
+  font-family: lato;
+}
+
+.dropBtn {
+  width: 20.22px;
+  height: 20.22px;
+}
+
+.item2 {
+  display: flex;
+  flex-direction: row;
+
+  width: fit-content;
+  height: fit-content;
+
+  /* padding-top: 2px;
+  padding-left: 25px; */
+}
+
+.smallDefine {
+  color: white;
+  font-family: lato;
+  font-size: 13.09px;
+  font-style: normal;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 16px;
+
+  width: 236px;
+  height: fit-content;
+  margin: 0;
+
+  span {
+    color: #50cae5;
+    font-weight: bold;
+  }
+}
+
+.item3 {
+  display: flex;
+  flex-direction: row;
+
+  width: fit-content;
+  height: fit-content;
+
+  align-items: baseline;
+
+  gap: 6.17px;
+
+  .prblmBtns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+
+    gap: 8.43px;
+
+    .prBtn {
+      width: fit-content;
+      height: fit-content;
+      padding: 4.21px 4.21px;
+
+      border: none;
+      border-radius: 5.9px;
+
+      font-size: 7.85px;
+    }
+  }
+
+  .iNeedBtn {
+    width: 61.52px;
+    height: 19.43px;
+    padding: 4.21px 4.21px;
+    background-color: #FF0550;
+    color: white;
+    border: none;
+    border-radius: 3.589989786px;
+    font-size: 8.85px;
+
+    
+  }
+}
+
 .small {
-  width: 298px;
+  max-width: 298px;
   height: 107px;
 
   background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
