@@ -1,10 +1,10 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./AutoSlider.css";
 
 const AutoSlider: React.FC = () => {
   const [num, setNum] = useState<number>(1);
 
-  const interval = setTimeout(() => {
+  setTimeout(() => {
     if (num < 7) {
       setNum(num + 1);
     } else {

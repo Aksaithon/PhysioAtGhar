@@ -8,7 +8,7 @@
       rgba(0, 0, 0, 0.73) 0%,
       rgba(0, 0, 0, 0.73) 100%
     ),
-    url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\corrected-bg-image.png"),
+    url(corrected-bg-image.png),
     lightgray 50% / cover no-repeat;
 
     background-size: cover;
