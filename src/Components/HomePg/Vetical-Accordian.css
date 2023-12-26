@@ -259,7 +259,7 @@ hr{
   max-width: 298px;
   height: 107px;
 
-  background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+  background: url(accdn1.png);
   background-size: cover;
   background-position-x: center;
   background-position-y: -50px;
@@ -271,7 +271,7 @@ hr{
   width: 298px;
   height: 337px;
 
-  background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+  background: url(accdn1.png);
   background-size: cover;
   border-radius: 33.99999px;
 }
@@ -289,7 +289,7 @@ hr{
     width: 298px;
     height: 337px;
 
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+    background: url(accdn1.png);
     background-size: cover;
     border-radius: 33.99999px;
   }
@@ -300,7 +300,7 @@ hr{
     width: 298px;
     height: 107px;
 
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\accdn1.png");
+    background: url(accdn1.png);
     background-size: cover;
     background-position-x: center;
     background-position-y: -50px;

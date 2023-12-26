@@ -6,9 +6,9 @@ import VerticalAccordian from "./Components/HomePg/Vertical-Accordian";
 const App = () => {
   return (
     <>
-      <IntroPart />
+      {/* <IntroPart /> */}
       <AutoSlider/>
-      <VerticalAccordian/>
+      {/* <VerticalAccordian/> */}
     </>
   );
 };

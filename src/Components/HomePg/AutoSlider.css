@@ -1,43 +1,137 @@
-.main_frame {
-  width: 332px;
-  height: 110px;
-  background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img1.png");
-  background-size: cover;
-
-  animation: autoSlider 20s ease-out infinite;
+.main_slider {
+  display: flex;
+  flex-direction: row; 
+  
+  margin: 50px 50px;
+  
+  width: 321.41px;
+  overflow: hidden;
+  border-radius: 6.215px;
+  
+  background-color: yellowgreen;
 }
 
-@keyframes autoSlider {
-  0% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img1.png");
-    background-size: cover;
+.strip {
+  display: flex;
+  flex-direction: row;
+}
+
+.main_frame {
+  display: inline-flex;
+  flex-direction: row;
+
+  min-width: 266.635px;
+
+  align-items: center;
+  gap: 54.78px;
+  padding-right: 54.78px;
+
+
+  border-radius: 6.215px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      178deg,
+      rgba(0, 0, 0, 0.77) 2.1%,
+      rgba(3, 74, 125, 0.77) 98.87%
+    ),
+    url(texture-img.png),
+    lightgray 0% 0% / 56.36698007583618px 56.36698007583618px repeat;
+  .img {
+    width: 99.43px;
+    height: 103.35px;
   }
-  14.28% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img2.png");
-    background-size: cover;
+
+  .pTag {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 16.11px;
+    color: white;
+
+    margin: 0;
+    text-align: center;
   }
-  28.56% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img3.png");
-    background-size: cover;
+}
+
+.fstShift {
+  animation: fstShift .1s ease-in-out forwards;
+}
+.scndShift {
+  animation: scndShift .1s ease-in-out forwards;
+}
+.thrdShift {
+  animation: thrdShift .1s ease-in-out forwards;
+}
+.frthShift {
+  animation: frthShift .1s ease-in-out forwards;
+}
+.fthShift {
+  animation: fthShift .1s ease-in-out forwards;
+}
+.sixthShift {
+  animation: sixthShift .1s ease-in-out forwards;
+}
+.svnthShift {
+  animation: svnthShift 0s ease-in-out forwards;
+}
+
+@keyframes fstShift {
+  from {
+    transform: translateX(0px);
   }
-  42.84% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img4.png");
-    background-size: cover;
+  to {
+    transform: translateX(-321.4px);
   }
-  57.12% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img5.png");
-    background-size: cover;
+}
+
+@keyframes scndShift {
+  from {
+    transform: translateX(-321.4px);
   }
-  71.4% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img6.png");
-    background-size: cover;
+  to {
+    transform: translateX(-642.8px);
   }
-  85.68% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img7.png");
-    background-size: cover;
+}
+@keyframes thrdShift {
+  from {
+    transform: translateX(-642.8px);
   }
-  100% {
-    background: url("C:\Users\akars\Documents\Heat_the_METAL\PhysioAtGhar\src\assets\img1.png");
-    background-size: cover;
+  to {
+    transform: translateX(-964.2px);
+  }
+}
+@keyframes frthShift {
+  from {
+    transform: translateX(-964.2px);
+  }
+  to {
+    transform: translateX(-1285.6px);
+  }
+}
+@keyframes fthShift {
+  from {
+    transform: translateX(-1285px);
+  }
+  to {
+    transform: translateX(-1607px);
+  }
+}
+@keyframes sixthShift {
+  from {
+    transform: translateX(-1607px);
+  }
+  to {
+    transform: translateX(-1929px);
+  }
+}
+@keyframes svnthShift {
+  from {
+    transform: translateX(-1928.4px);
+  }
+  to {
+    transform: translateX(0px);
   }
 }
