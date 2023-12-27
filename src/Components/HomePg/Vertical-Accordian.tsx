@@ -50,12 +50,6 @@ const VerticalAccordian = () => {
   return (
     <>
       <div
-        style={{
-          background: "url(accdn1.png)",
-          backgroundSize: "cover",
-          backgroundPositionX: "center",
-          backgroundPositionY: "-50px",
-        }}
         className={
           interact1
             ? bigSmall1
@@ -180,12 +174,6 @@ const VerticalAccordian = () => {
         </div>
       </div>
       <div
-        style={{
-          background: "url(accdn1.png)",
-          backgroundSize: "cover",
-          backgroundPositionX: "center",
-          backgroundPositionY: "-50px",
-        }}
         className={
           interact2
             ? bigSmall2
@@ -310,12 +298,6 @@ const VerticalAccordian = () => {
         </div>
       </div>
       <div
-        style={{
-          background: "url(accdn1.png)",
-          backgroundSize: "cover",
-          backgroundPositionX: "center",
-          backgroundPositionY: "-50px",
-        }}
         className={
           interact3
             ? bigSmall3
@@ -440,12 +422,6 @@ const VerticalAccordian = () => {
         </div>
       </div>
       <div
-        style={{
-          background: "url(accdn1.png)",
-          backgroundSize: "cover",
-          backgroundPositionX: "center",
-          backgroundPositionY: "-50px",
-        }}
         className={
           interact4
             ? bigSmall4
