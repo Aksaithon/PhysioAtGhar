@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./AutoSlider.css";
+import Dots from "./Dots";
 
 const AutoSlider: React.FC = () => {
   const [num, setNum] = useState<number>(1);
@@ -76,6 +77,9 @@ const AutoSlider: React.FC = () => {
               <p className="pTag">Progress tracking 7 </p>
             </div>
           }
+        </div>
+        <div className="dots_component" >
+          <Dots />
         </div>
       </div>
     </>
