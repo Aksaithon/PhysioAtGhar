@@ -1,0 +1,148 @@
+.front {
+  display: flex;
+
+  z-index: 1;
+  opacity: 1;
+
+  height: 427px;
+  width: 194px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-shrink: 0;
+
+  border-radius: 9px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.29) 0%,
+      rgba(0, 0, 0, 0.29) 100%
+    ),
+    url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat;
+
+  background-size: cover;
+  background-position: center;
+
+  .problem_title_front {
+    position: absolute;
+    transform: translateX(22px) translateY(-77px);
+    color: white;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+
+    width: 79px;
+    height: 48px;
+
+    margin: 0px;
+  }
+}
+
+.rotateFront {
+  animation: rotateFront 0.25s cubic-bezier(0, 0, 0.58, 1) forwards;
+}
+.rotateBack {
+  animation: rotateBack 0.25s cubic-bezier(0, 0, 0.58, 1) forwards;
+}
+
+@keyframes rotateFront {
+  to {
+    transform: rotateY(180deg);
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
+@keyframes rotateBack {
+  to {
+    transform: rotateY(180deg) translateY(-427.3px);
+    z-index: 1;
+    opacity: 1;
+  }
+}
+
+.rotateFrontAgain {
+  animation: rotateFrontAgain 0.25s cubic-bezier(0, 0, 0.58, 1) forwards;
+}
+.rotateBackAgain {
+  animation: rotateBackAgain 0.25s cubic-bezier(0, 0, 0.58, 1) forwards;
+}
+
+@keyframes rotateFrontAgain {
+  from {
+    transform: rotateY(180deg);
+    z-index: -1;
+    opacity: 0;
+  }
+  to {
+    transform: rotateY(0deg);
+    z-index: 1;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateBackAgain {
+  from {
+    transform: rotateY(180deg) translateY(-427.3px);
+    z-index: 1;
+    opacity: 1;
+  }
+  to {
+    transform: rotateY(0deg) translateY(-427.3px);
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  transform: translateY(-427.3px);
+  z-index: -1;
+  opacity: 0;
+
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 9px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.29) 0%,
+      rgba(0, 0, 0, 0.29) 100%
+    ),
+    url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .blur_frame {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 9px;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 194px;
+    height: 427px;
+
+    backdrop-filter: blur(5px);
+
+    .prblm_para {
+      color: white;
+      font-family: lato;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 400;
+
+      width: 158px;
+
+      transform: rotateY(180deg);
+    }
+  }
+}

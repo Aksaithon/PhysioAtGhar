@@ -1,0 +1,120 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+
+  min-width: 300px;
+  max-width: 300px;
+
+  min-height: 300px;
+  max-height: 300px;
+
+  border-radius: 9px;
+
+  align-items: flex-start;
+  justify-content: flex-end;
+
+  overflow: hidden;
+
+  .img {
+    width: 300px;
+    height: 300px;
+
+    transform: rotateY(180deg);
+    background: linear-gradient(
+        312deg,
+        rgba(0, 0, 0, 0.53) 0.04%,
+        rgba(0, 0, 0, 0) 28.89%
+      ),
+      linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+      url(testimonial1.png), lightgray 50% / cover no-repeat;
+      background-size: cover;
+      background-position: center;
+
+  }
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  gap: 6.6px;
+
+  transform: translate(12px, -62px);
+
+  .dbl_quote {
+    width: 13.2px;
+    height: 14.4px;
+
+    margin: 0px;
+    padding: 0px;
+
+    color: #fff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .review_text {
+    width: 232.2px;
+
+    margin: 0px;
+    padding: 0px;
+
+    color: #fff;
+    font-family: lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+
+  transform: translate(12px, -12.2px);
+
+  gap: 3.6px;
+
+  .nam {
+    margin: 0px;
+    padding: 0px;
+
+    color: #fff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+  }
+  .designation {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 6.252px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.188px;
+  }
+  .company {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 6.252px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.188px;
+  }
+}
