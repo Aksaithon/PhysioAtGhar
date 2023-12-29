@@ -22,16 +22,6 @@ const ProblemCard = () => {
                 : "front rotateFrontAgain"
               : "front"
           }
-          style={{
-            background: `linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.29) 0%,
-            rgba(0, 0, 0, 0.29) 100%
-          ),
-          url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
           onClick={() => rotateCard1()}
         >
           <p className="problem_title_front">Problem name</p>
@@ -44,16 +34,6 @@ const ProblemCard = () => {
                 : "back rotateBackAgain"
               : "back"
           }
-          style={{
-            background: `linear-gradient(
-            0deg,
-            rgba(0, 0, 0, 0.29) 0%,
-            rgba(0, 0, 0, 0.29) 100%
-          ),
-          url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
           onClick={() => rotateCard1()}
         >
           <div className="blur_frame">
