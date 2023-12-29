@@ -20,16 +20,14 @@
     height: 300px;
 
     transform: rotateY(180deg);
-    background: linear-gradient(
-        312deg,
-        rgba(0, 0, 0, 0.53) 0.04%,
-        rgba(0, 0, 0, 0) 28.89%
-      ),
-      linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
-      url(testimonial1.png), lightgray 50% / cover no-repeat;
-      background-size: cover;
-      background-position: center;
 
+    animation: enlarg 5s linear forwards;
+  }
+}
+
+@keyframes enlarg {
+  to{
+    width: 350px;
   }
 }
 
@@ -118,3 +116,5 @@
     letter-spacing: 0.188px;
   }
 }
+
+
