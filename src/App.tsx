@@ -5,7 +5,6 @@ import VerticalAccordian from "./Components/HomePg/Vertical-Accordian";
 
 import "./App.css";
 import ProblemCard from "./Components/HomePg/ProblemCard";
-import Testimonial from "./Components/HomePg/Testimonial";
 import TestimonialAnim from "./Components/HomePg/Testimonial-Anim";
 
 const App = () => {

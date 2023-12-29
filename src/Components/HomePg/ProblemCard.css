@@ -12,15 +12,6 @@
   flex-shrink: 0;
 
   border-radius: 9px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.29) 0%,
-      rgba(0, 0, 0, 0.29) 100%
-    ),
-    url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat;
-
-  background-size: cover;
-  background-position: center;
 
   .problem_title_front {
     position: absolute;
@@ -110,14 +101,6 @@
   justify-content: center;
 
   border-radius: 9px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.29) 0%,
-      rgba(0, 0, 0, 0.29) 100%
-    ),
-    url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat;
-  background-size: cover;
-  background-position: center;
 
   .blur_frame {
     display: flex;

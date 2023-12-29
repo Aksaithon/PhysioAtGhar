@@ -4,30 +4,12 @@ import "./ProblemCard.css";
 
 const ProblemCard = () => {
   const [startRotation1, setStartRotation1] = useState<boolean>(false);
-  const [startRotation2, setStartRotation2] = useState<boolean>(false);
-  const [startRotation3, setStartRotation3] = useState<boolean>(false);
-  const [startRotation4, setStartRotation4] = useState<boolean>(false);
 
   const [rotate1, setRotate1] = useState<boolean>(false);
-  const [rotate2, setRotate2] = useState<boolean>(false);
-  const [rotate3, setRotate3] = useState<boolean>(false);
-  const [rotate4, setRotate4] = useState<boolean>(false);
 
   const rotateCard1 = () => {
     setStartRotation1(true);
     setRotate1(!rotate1);
-  };
-  const rotateCard2 = () => {
-    setStartRotation2(true);
-    setRotate2(!rotate2);
-  };
-  const rotateCard3 = () => {
-    setStartRotation3(true);
-    setRotate3(!rotate3);
-  };
-  const rotateCard4 = () => {
-    setStartRotation4(true);
-    setRotate4(!rotate4);
   };
   return (
     <>
@@ -40,6 +22,16 @@ const ProblemCard = () => {
                 : "front rotateFrontAgain"
               : "front"
           }
+          style={{
+            background: `linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.29) 0%,
+            rgba(0, 0, 0, 0.29) 100%
+          ),
+          url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
           onClick={() => rotateCard1()}
         >
           <p className="problem_title_front">Problem name</p>
@@ -52,6 +44,16 @@ const ProblemCard = () => {
                 : "back rotateBackAgain"
               : "back"
           }
+          style={{
+            background: `linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.29) 0%,
+            rgba(0, 0, 0, 0.29) 100%
+          ),
+          url(Problem_img1.png), lightgray -79.62px -0.063px / 220.103% 100% no-repeat`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
           onClick={() => rotateCard1()}
         >
           <div className="blur_frame">
