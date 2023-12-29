@@ -24,7 +24,7 @@ const Testimonial: React.FC<textProps> = ({
           style={{
             background: `linear-gradient(312deg,rgba(0, 0, 0, 0.53) 0.04%, rgba(0, 0, 0, 0) 28.89%),linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),  url(${thisImg})`,
             backgroundColor: "lightgray",
-            backgroundRepeat:"no-repeat",
+            backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             backgroundPositionX: "center",
             backgroundPositionY: "center",
