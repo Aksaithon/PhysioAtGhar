@@ -1,16 +1,16 @@
 .main_slider {
   display: flex;
   flex-direction: column;
-  
+
   align-items: center;
-    
+
   width: 321.41px;
   overflow: hidden;
   border-radius: 6.215px;
-  
+
   background-color: yellowgreen;
 
-  .dots_component{
+  .dots_component {
     position: absolute;
     transform: translateY(90px);
   }
@@ -33,26 +33,14 @@
   gap: 54.78px;
   padding-right: 54.78px;
 
-
   border-radius: 6.215px;
-  background: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.31) 0%,
-      rgba(0, 0, 0, 0.31) 100%
-    ),
-    linear-gradient(
-      178deg,
-      rgba(0, 0, 0, 0.77) 2.1%,
-      rgba(3, 74, 125, 0.77) 98.87%
-    ),
-    url(texture-img.png),
-    lightgray 0% 0% / 56.36698007583618px 56.36698007583618px repeat;
   .img {
     width: 99.43px;
     height: 103.35px;
   }
 
   .pTag {
+    /* width: 143px; */
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     font-size: 16.11px;
@@ -63,23 +51,122 @@
   }
 }
 
+.slide1 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      179deg,
+      rgba(172, 107, 94, 0.77) 0.77%,
+      rgba(87, 91, 103, 0.77) 99.56%
+    ),
+    url("/texture-img.png"),
+    lightgray 0% 0% / 56.28474950790405px 56.28474950790405px repeat;
+}
+.slide2 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      174deg,
+      rgba(236, 221, 185, 0.77) 6.06%,
+      rgba(59, 141, 249, 0.77) 96.75%
+    ),
+    url("/texture-img.png"),
+    lightgray 0% 0% / 56.28474950790405px 56.28474950790405px repeat;
+}
+.slide3 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      174deg,
+      rgba(49, 107, 114, 0.77) 6.06%,
+      rgba(250, 119, 41, 0.77) 96.75%
+    ),
+    url("/texture-img.png"),
+    lightgray 0% 0% / 56.28474950790405px 56.28474950790405px repeat;
+}
+.slide4 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      174deg,
+      rgba(35, 14, 11, 0.77) 6.06%,
+      rgba(183, 115, 92, 0.77) 96.75%
+    ),
+    url("/texture-img.png"),
+    lightgray 0% 0% / 56.28474950790405px 56.28474950790405px repeat;
+}
+.slide5 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      174deg,
+      rgba(10, 43, 62, 0.77) 6.06%,
+      rgba(14, 195, 206, 0.77) 96.75%
+    ),
+    url("/texture-img.png"),
+    lightgray 0% 0% / 56.28474950790405px 56.28474950790405px repeat;
+}
+.slide6 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      178deg,
+      rgba(56, 83, 179, 0.77) 2.1%,
+      rgba(14, 195, 206, 0.77) 98.87%
+    ),
+    url("/texture-img.png"),
+    lightgray 0% 0% / 56.28474950790405px 56.28474950790405px repeat;
+}
+.slide7 {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.31) 0%,
+      rgba(0, 0, 0, 0.31) 100%
+    ),
+    linear-gradient(
+      178deg,
+      rgba(120, 77, 61, 0.77) 2.1%,
+      rgba(3, 74, 125, 0.77) 98.87%
+    ),
+    url("/texture-img.png"),
+    lightgray 0% 0% / 56.28474950790405px 56.28474950790405px repeat;
+}
+
 .fstShift {
-  animation: fstShift .1s ease-in-out forwards;
+  animation: fstShift 0.1s ease-in-out forwards;
 }
 .scndShift {
-  animation: scndShift .1s ease-in-out forwards;
+  animation: scndShift 0.1s ease-in-out forwards;
 }
 .thrdShift {
-  animation: thrdShift .1s ease-in-out forwards;
+  animation: thrdShift 0.1s ease-in-out forwards;
 }
 .frthShift {
-  animation: frthShift .1s ease-in-out forwards;
+  animation: frthShift 0.1s ease-in-out forwards;
 }
 .fthShift {
-  animation: fthShift .1s ease-in-out forwards;
+  animation: fthShift 0.1s ease-in-out forwards;
 }
 .sixthShift {
-  animation: sixthShift .1s ease-in-out forwards;
+  animation: sixthShift 0.1s ease-in-out forwards;
 }
 .svnthShift {
   animation: svnthShift 0s ease-in-out forwards;

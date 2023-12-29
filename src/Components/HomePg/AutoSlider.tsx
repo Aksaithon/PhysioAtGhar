@@ -36,45 +36,45 @@ const AutoSlider: React.FC = () => {
           }
         >
           {
-            <div className={"main_frame"}>
-              <img src="ImageSlider7.png" alt="" className="img" />
-              <p className="pTag">Progress tracking 1 </p>
+            <div className={"main_frame slide1 "}>
+              <img src="ImageSlider1.png" alt="" className="img" />
+              <p className="pTag">Personalized attention </p>
             </div>
           }
           {
-            <div className={"main_frame"}>
-              <img src="ImageSlider7.png" alt="" className="img" />
-              <p className="pTag">Progress tracking 2 </p>
+            <div className={"main_frame slide2 "}>
+              <img src="ImageSlider2.png" alt="" className="img" />
+              <p className="pTag">Comprehensive assessment </p>
             </div>
           }
           {
-            <div className={"main_frame"}>
-              <img src="ImageSlider7.png" alt="" className="img" />
-              <p className="pTag">Progress tracking 3 </p>
+            <div className={"main_frame slide3 "}>
+              <img src="ImageSlider3.png" alt="" className="img" />
+              <p className="pTag">Tailored-treatment plane </p>
             </div>
           }
           {
-            <div className={"main_frame"}>
-              <img src="ImageSlider7.png" alt="" className="img" />
-              <p className="pTag">Progress tracking 4 </p>
+            <div className={"main_frame slide4 "}>
+              <img src="ImageSlider4.png" alt="" className="img" />
+              <p className="pTag">Hands-on techniques </p>
             </div>
           }
           {
-            <div className={"main_frame"}>
-              <img src="ImageSlider7.png" alt="" className="img" />
-              <p className="pTag">Progress tracking 5 </p>
+            <div className={"main_frame slide5 "}>
+              <img src="ImageSlider5.png" alt="" className="img" />
+              <p className="pTag">Targeted exercises </p>
             </div>
           }
           {
-            <div className={"main_frame"}>
-              <img src="ImageSlider7.png" alt="" className="img" />
-              <p className="pTag">Progress tracking 6 </p>
+            <div className={"main_frame slide6 "}>
+              <img src="ImageSlider6.png" alt="" className="img" />
+              <p className="pTag">Education and guidance </p>
             </div>
           }
           {
-            <div className={"main_frame"}>
+            <div className={"main_frame slide7 "}>
               <img src="ImageSlider7.png" alt="" className="img" />
-              <p className="pTag">Progress tracking 7 </p>
+              <p className="pTag">Progress tracking </p>
             </div>
           }
         </div>
