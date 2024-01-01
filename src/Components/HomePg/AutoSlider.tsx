@@ -10,10 +10,10 @@ const AutoSlider: React.FC = () => {
 
   const handlers = useSwipeable({
     onSwipedLeft: () => {
-      alert("You swiped left")
+      setNum(num + 1);
     },
     onSwipedRight: () => {
-      alert("You swiped right");
+      setNum(num - 1);
     },
   });
 
@@ -27,7 +27,7 @@ const AutoSlider: React.FC = () => {
 
   return (
     <>
-      <div className="main_slider"{...handlers}  >
+      <div className="main_slider" {...handlers}>
         <div
           className={
             num == 1
