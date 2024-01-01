@@ -13,11 +13,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: fit-content;
 }
 
 .container {
   display: flex;
-  /* background-color: rgba(128, 128, 128, 0.234); */
   flex-direction: column;
   overflow: hidden;
 
