@@ -264,7 +264,7 @@ hr {
 
 .big {
   min-width: 298px;
-  height: 337px;
+  min-height: 337px;
 
   background: url("/accdn1.png");
   background-size: cover;
