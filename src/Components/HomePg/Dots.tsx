@@ -19,7 +19,7 @@ const Dots = () => {
   }, 4000);
 
   return (
-    <div className="dots_container">
+    <div className="dots_container" {...handlers} >
       <p className="dot">{num == 1 ? "●" : "•"}</p>
       <p className="dot">{num == 2 ? "●" : "•"}</p>
       <p className="dot">{num == 3 ? "●" : "•"}</p>
