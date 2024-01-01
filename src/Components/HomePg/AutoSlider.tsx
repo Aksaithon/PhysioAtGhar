@@ -10,10 +10,10 @@ const AutoSlider: React.FC = () => {
 
   const handlers = useSwipeable({
     onSwipedLeft: () => {
-      console.log("left swiped");
+      alert("You swiped left")
     },
     onSwipedRight: () => {
-      console.log("right swiped");
+      alert("You swiped right");
     },
   });
 
