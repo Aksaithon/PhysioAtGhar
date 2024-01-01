@@ -1,14 +1,10 @@
 import { useState } from "react";
 import "./Dots.css";
-import { useSwipeable } from "react-swipeable";
 const Dots = () => {
   // texts for dots:  ◉○   ●• ● ◯
 
   const [num, setNum] = useState<number>(2);
-  const handlers = useSwipeable({
-    onSwipedLeft: () => setNum(num + 1),
-    onSwipedRight: () => setNum(num - 1)
-  })
+  
 
   setTimeout(() => {
     if (num < 7) {
@@ -19,7 +15,7 @@ const Dots = () => {
   }, 20000);
 
   return (
-    <div className="dots_container" {...handlers} >
+    <div className="dots_container" >
       <p className="dot">{num == 1 ? "●" : "•"}</p>
       <p className="dot">{num == 2 ? "●" : "•"}</p>
       <p className="dot">{num == 3 ? "●" : "•"}</p>

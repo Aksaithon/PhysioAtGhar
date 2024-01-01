@@ -1,21 +1,11 @@
 import { useState } from "react";
 import React from "react";
-import { useSwipeable } from "react-swipeable";
 
 import "./AutoSlider.css";
 import Dots from "./Dots";
 
 const AutoSlider: React.FC = () => {
   const [num, setNum] = useState<number>(1);
-
-  const handlers = useSwipeable({
-    onSwipedLeft: () => {
-      setNum(num + 1);
-    },
-    onSwipedRight: () => {
-      setNum(num - 1);
-    },
-  });
 
   setTimeout(() => {
     if (num < 7) {
@@ -27,7 +17,7 @@ const AutoSlider: React.FC = () => {
 
   return (
     <>
-      <div className="main_slider" {...handlers}>
+      <div className="main_slider">
         <div
           className={
             num == 1
@@ -91,7 +81,7 @@ const AutoSlider: React.FC = () => {
           }
         </div>
         <div className="dots_component">
-          <Dots />
+          {/* <Dots /> */}
         </div>
       </div>
     </>
