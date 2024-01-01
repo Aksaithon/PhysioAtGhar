@@ -23,7 +23,7 @@ const AutoSlider: React.FC = () => {
     } else {
       setNum(1);
     }
-  }, 4000);
+  }, 20000);
 
   return (
     <>

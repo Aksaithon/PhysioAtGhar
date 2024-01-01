@@ -16,7 +16,7 @@ const Dots = () => {
     } else {
       setNum(1);
     }
-  }, 4000);
+  }, 20000);
 
   return (
     <div className="dots_container" {...handlers} >
