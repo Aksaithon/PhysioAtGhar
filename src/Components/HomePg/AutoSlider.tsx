@@ -2,7 +2,7 @@ import { useState } from "react";
 import React from "react";
 
 import "./AutoSlider.css";
-import Dots from "./Dots";
+// import Dots from "./Dots";
 
 const AutoSlider: React.FC = () => {
   const [num, setNum] = useState<number>(1);
