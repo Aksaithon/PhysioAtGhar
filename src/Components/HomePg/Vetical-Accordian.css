@@ -274,11 +274,11 @@ hr {
 }
 
 .toBig {
-  animation: changeToBig 0.1s ease-out forwards;
+  animation: changeToBig 0.1s cubic-bezier(0, 0, 0.58, 1) forwards;
 }
 
 .toSmall {
-  animation: changeToSmall 0.1s ease-out forwards;
+  animation: changeToSmall 0.1s cubic-bezier(0, 0, 0.58, 1) forwards;
 }
 
 @keyframes changeToBig {
