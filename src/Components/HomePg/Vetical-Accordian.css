@@ -228,6 +228,8 @@ hr {
   gap: 12.29px;
   margin: 0px;
 
+  padding-bottom: 15px;
+
   .cta_Btns {
     display: flex;
     flex-direction: row;
