@@ -6,6 +6,7 @@ import VerticalAccordian from "./Components/HomePg/Vertical-Accordian";
 import "./App.css";
 import ProblemCard from "./Components/HomePg/ProblemCard";
 import TestimonialAnim from "./Components/HomePg/Testimonial-Anim";
+import Blog from "./Components/HomePg/Blog";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <ProblemCard />
         <ProblemCard />
         <TestimonialAnim />
+        <Blog/>
       </div>
     </>
   );

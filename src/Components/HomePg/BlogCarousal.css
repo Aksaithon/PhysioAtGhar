@@ -1,0 +1,38 @@
+.carousal{
+    display: flex;
+    flex-direction: column;
+
+    width: 360px;
+    height: fit-content;
+
+    padding-top: 43.52px;
+    padding-bottom: 43.52px;
+    overflow: hidden;
+
+    .all_Blog_Cards{
+        display: flex;
+        flex-direction: row;
+
+        width: fit-content;
+        height: fit-content;
+
+        padding-left: 100px;
+        gap: 38.85px;
+    }
+}
+
+
+/* .carousel {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 360px;
+
+    .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+} */
