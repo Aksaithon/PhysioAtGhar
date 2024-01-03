@@ -1,4 +1,3 @@
-import React from "react";
 import BlogCarousel from "./BlogCarousel";
 import "./Blog.css"
 
